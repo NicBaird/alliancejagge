@@ -1,0 +1,100 @@
+{	"weapon" : {
+		"ak-47" : {
+			"name" : "AK-47",
+			"image" : "ak-47.png",
+			"type" : "light",
+			"range" : 0,
+			"power" : 0,
+			"accuracy" : 0,
+			"capacity" : 30,
+			"durability" : 100,
+			"size" : 2,
+			"cost" : 100,
+			"attributes" : ["Automatic"]
+			},
+		"combat_knife" : {
+			"name" : "Combat Knife",
+			"image" : "combat_knife.png",
+			"type" : "melee",
+			"range" : 0,
+			"power" : 0,
+			"accuracy" : 0,
+			"capacity" : 30,
+			"durability" : 100,
+			"size" : 1,
+			"cost" : 100,
+			"attributes" : ["Silent", "Blade"]
+			},
+		"unarmed" : {
+			"name" : "CQC",
+			"image" : "combat_knife.png",
+			"type" : "melee",
+			"range" : 0,
+			"power" : 0,
+			"accuracy" : 0,
+			"capacity" : 0,
+			"durability" : 100,
+			"size" : 1,
+			"cost" : 0,
+			"attributes" : ["Silent"]
+			},
+		"glock17" : {
+			"name" : "Glock 17",
+			"image" : "glock17.png",
+			"type" : "light",
+			"range" : 11,
+			"power" : 1,
+			"accuracy" : 1,
+			"capacity" : 15,
+			"durability" : 8,
+			"size" : 1,
+			"weight" : 6,
+			"cost" : 796,
+			"attributes" : ["Handgun"]
+			}
+		},
+	"head" : {
+		"steel_helmet" : {
+			"name" : "Steel Helmet",
+			"image" : "steel_helmet.png",
+			"armor" : 10,
+			"durability" : 100,
+			"size" : 1,
+			"cost" : 100,
+			"attributes" : []
+			}
+		},
+	"torso" : {
+		"camo_jacket" : {
+			"name" : "Camo Jacket",
+			"image" : "steel_helmet.png",
+			"armor" : 10,
+			"durability" : 100,
+			"size" : 1,
+			"cost" : 100,
+			"attributes" : []
+			}
+		},
+	"legs" : {
+		"camo_pants" : {
+			"name" : "Camo Pants",
+			"image" : "steel_helmet.png",
+			"armor" : 10,
+			"durability" : 100,
+			"size" : 1,
+			"cost" : 100,
+			"attributes" : []
+			}
+		},
+	"item" : {
+		"762x39mm" : {
+			"type" : "ammo",
+			"image" : "762x39mm.png",
+			"amount" : 30,
+			"durability" : 100,
+			"size" : 1,
+			"cost" : 50,
+			"attributes" : []
+			}
+		}
+}

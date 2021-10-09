@@ -1,0 +1,13 @@
+{	"ak-47" : {
+		"name" : "AK-47",
+		"image" : "ak-47.png",
+		"type" : "light",
+		"range" : 0,
+		"power" : 0,
+		"accuracy" : 0,
+		"capacity" : 30,
+		"durability" : 100,
+		"cost" : 100,
+		"attributes" : ["Automatic"]
+	}
+}
